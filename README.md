@@ -13,19 +13,19 @@ Assume you have Vue component `./components/menu.vue` which internally uses SVG 
 <template>
   <nav id="menu">
     <a href="...">
-      <SomeIcon class="icon" />
-      Some page
+      <Icon class="icon" />
+      Menu Item
     </a>
   </nav>
 </template>
  
 <script>
-import SomeIcon from './components/assets/icon.svg';
+import Icon from './components/assets/icon.svg';
  
 export default {
   name: 'menu',
   components: {
-    SomeIcon,
+    Icon,
   },
 };
 </script> 
