@@ -7,7 +7,7 @@ This is a plugin for `require-extension-hooks` to load .svg files in Node as Vue
 
 ## Usage  
 
-Assume you have Vue component "./components/menu.vue" which internally uses SVG as Vue component:
+Assume you have Vue component `./components/menu.vue` which internally uses SVG as Vue component:
 
 ```html
 <template>
@@ -39,5 +39,5 @@ hooks('svg').plugin('vue-svg'));
 hooks('vue').plugin('vue');
 hooks(['vue', 'js']).plugin('babel');
 
-const menuComp = require('./components/menu.vue')
+const Menu = require('./components/menu.vue')
 ```
