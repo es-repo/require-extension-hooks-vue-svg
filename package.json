@@ -1,0 +1,23 @@
+{
+  "name": "require-extension-hooks-vue-svg",
+  "version": "0.1.0",
+  "description": "A require-extension-hooks plugin to converts SVG file into Vue components",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/es-repo/require-extension-hooks-vue-svg.git"
+  },
+  "author": "Eugene Sirota",
+  "license": "ISC",
+  "homepage": "https://github.com/es-repo/require-extension-hooks-vue-svg#readme",
+  "bugs": {
+    "url": "https://github.com/es-repo/require-extension-hooks-vue-svg/issues"
+  },
+  "homepage": "https://github.com/es-repo/require-extension-hooks-vue-svg#readme",
+  "dependencies": {
+    "vue-template-compiler": "^2.4.4"
+  }
+}
